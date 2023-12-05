@@ -8,11 +8,15 @@ O código principal está contido no arquivo principal (`main.py`), que utiliza 
 
 Para executar o código, basta seguir estas etapas:
 
-1. Importar as classes necessárias do módulo `utils`:
+1. Importar as classes necessárias dos módulos `analyzers`, `compilers` e `utils`:
 
     ```python
-    from utils.gerenciadores import Arquivo
-    from utils.analisadores import Lexica, Sintatica, Semantica
+    from analyzers.lexer import Lexer
+    from analyzers.syntactic import Syntactic
+    from analyzers.semantic import Semantic
+    from analyzers.code_generator import CodeGenerator
+    from compilers.compiler import Compiler
+    from utils.file_manager import FileManager
     ```
 
 2. Processar o arquivo de expressões:
