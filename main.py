@@ -7,10 +7,10 @@ from utils.file_manager import FileManager
 
 if __name__ == "__main__":
     # Carregar o código-fonte de um arquivo
-    text = FileManager.process('expressions.txt').split('\n')[1]
+    text = FileManager.process('expressions.txt').split('\n')
 
     # Análise léxica
-    tokens = Lexer.scanner(text, show_result=True)
+    tokens = Lexer.scanner(text[2], show_result=True)
 
     # Análise sintática
     syntax_tree = Syntactic.parse(tokens, show_result=True)

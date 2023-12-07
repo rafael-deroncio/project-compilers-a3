@@ -1,10 +1,10 @@
-## Analisador de Expressões Matemáticas
+## Analisador de Loop For
 
-Este código implementa um analisador de expressões matemáticas simples, dividido em três etapas principais: análise léxica, análise sintática e análise semântica.
+Este código implementa um analisador de lopp for, dividido em três etapas principais: análise léxica, análise sintática e análise semântica.
 
 ### Utilização
 
-O código principal está contido no arquivo principal (`main.py`), que utiliza as funcionalidades definidas nos módulos localizados na pasta `utils`. Antes de executar o código, certifique-se de ter um arquivo de expressões matemáticas (por exemplo, `expressoes.txt`) no mesmo diretório.
+O código principal está contido no arquivo principal (`main.py`), que utiliza as funcionalidades definidas nos módulos localizados nas pastas `analyzers`, `compilers` e `utils`. Antes de executar o código, certifique-se de ter um arquivo de expressões matemáticas (por exemplo, `expressions.txt`) no mesmo diretório.
 
 Para executar o código, basta seguir estas etapas:
 
@@ -70,9 +70,9 @@ O módulo `Compiler` realiza a compilação e execução do código.
 ### Exemplo de Arquivo de Expressões (`expressoes.txt`)
 
 ```plaintext
-for i in range(5): print(i)
-for i in 'uma string qualquer': print(i)
-for i in 'COMPILADORES': print(i)
+para i no intervalo(12): escreva(i)
+para i no intervalo(5, 15): escreva(i)
+para i no 'COMPILADORES': escreva(i)
 for i in %: print(i)
 # for i in range(15): print(i)
 ((12 + 2 -1) + 1)

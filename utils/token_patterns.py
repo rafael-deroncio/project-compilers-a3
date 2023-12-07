@@ -14,10 +14,10 @@ class TokenPatterns(Enum):
             List[Tuple[str, str]]: Lista de tuplas contendo padrões e os respectivos nomes de tokens.
         """
         return [
-            (r'\bfor\b', 'FOR'),                 # Padrão para a palavra-chave 'for'
-            (r'\bin\b', 'IN'),                   # Padrão para a palavra-chave 'in'
-            (r'\brange\b', 'RANGE'),             # Padrão para a palavra-chave 'range'
-            (r'\bprint\b', 'PRINT'),             # Padrão para a palavra-chave 'print'
+            (r'\bpara\b', 'FOR'),                 # Padrão para a palavra-chave 'for'
+            (r'\bno\b', 'IN'),                   # Padrão para a palavra-chave 'in'
+            (r'\bintervalo\b', 'RANGE'),             # Padrão para a palavra-chave 'range'
+            (r'\bescreva\b', 'PRINT'),             # Padrão para a palavra-chave 'print'
             (r'\b[a-zA-Z_][a-zA-Z0-9_]*\b', 'IDENTIFIER'),  # Padrão para identificadores válidos
             (r'\d+', 'INTEGER'),                 # Padrão para números inteiros
             (r',', 'COMMA'),                     # Padrão para a vírgula
