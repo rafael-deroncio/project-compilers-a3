@@ -73,9 +73,6 @@ O módulo `Compiler` realiza a compilação e execução do código.
 para i no intervalo(12): escreva(i)
 para i no intervalo(5, 15): escreva(i)
 para i no 'COMPILADORES': escreva(i)
-for i in %: print(i)
-# for i in range(15): print(i)
-((12 + 2 -1) + 1)
 ```
 
 ### Resultados da Execução
