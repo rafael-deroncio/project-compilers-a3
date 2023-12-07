@@ -1,0 +1,5 @@
+for i in range(5): print(i)
+for i in 'uma string qualquer': print(i)
+for i in 'COMPILADORES': print(i)
+for i in %: print(i)
+# for i in range(15): print(i)
