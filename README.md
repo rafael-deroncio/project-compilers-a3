@@ -49,15 +49,15 @@ O módulo `utils.file_manager` fornece uma classe estática `FileManager` com um
 
 ### Módulo `Lexer`
 
-O módulo `Lexer` é responsável pela análise léxica das expressões matemáticas. Ele divide as expressões em tokens e fornece métodos para exibir os resultados da análise léxica.
+O módulo `Lexer` é responsável pela análise léxica do código fonte de entrada. Ele divide as expressões em tokens e fornece métodos para exibir os resultados da análise léxica.
 
 ### Módulo `Syntactic`
 
-O módulo `Syntactic` realiza a análise sintática da lista de tokens gerada pela análise léxica. Ele verifica a validade da estrutura das expressões matemáticas, identificando possíveis erros sintáticos, como parênteses mal posicionados.
+O módulo `Syntactic` realiza a análise sintática da lista de tokens gerada pela análise léxica. Ele verifica a validade da estrutura das expressões matemáticas, identificando possíveis erros sintáticos, como erro na semantica.
 
 ### Módulo `Semantic`
 
-O módulo `Semantic` realiza a análise semântica das expressões matemáticas, avaliando-as e identificando erros semânticos, como divisão por zero. Os resultados são exibidos, indicando se as expressões são válidas e seus respectivos valores.
+O módulo `Semantic` realiza a análise semântica das expressões matemáticas, avaliando-as e identificando erros semânticos.
 
 ### Módulo `CodeGenerator`
 
